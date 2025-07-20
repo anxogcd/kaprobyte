@@ -15,44 +15,29 @@ export interface Menu {
     type: 'lunch' | 'dinner';
 }
 
-export function getRandomMenu(): { lunch: Menu, dinner: Menu } {
-    const randomIndexLunchs = Math.floor(Math.random() * lunchs.length);
-    const randomIndexDinners = Math.floor(Math.random() * dinners.length);
-    return {
-        lunch: {
-            title: lunchs[randomIndexLunchs].title,
-            ingredients: lunchs[randomIndexLunchs].ingredients,
-            cycle_phase: lunchs[randomIndexLunchs].cycle_phase as CyclePhase,
-            type: 'lunch',
-        },
-        dinner: {
-            title: dinners[randomIndexDinners].title,
-            ingredients: dinners[randomIndexDinners].ingredients,
-            cycle_phase: dinners[randomIndexDinners].cycle_phase as CyclePhase,
-            type: 'dinner',
-        },
-    };
-}
+export function getRandomMenuByPhase(phase: CyclePhase): { lunch: Menu, dinner: Menu } {
+    let filteredLunchs;
+    let filteredDinners;
+    if (phase === CyclePhase.None) {
+        filteredLunchs = lunchs;
+        filteredDinners = dinners;
+    } else {
+        filteredLunchs = lunchs.filter((menu) => menu.cycle_phase === phase);
+        filteredDinners = dinners.filter((menu) => menu.cycle_phase === phase);
 
-export function getMenuByPhase(phase: string): { lunch: Menu, dinner: Menu } {
-    const filteredLunchs = lunchs.filter((menu) => menu.cycle_phase === phase);
-    const filteredDinners = dinners.filter((menu) => menu.cycle_phase === phase);
-
+    }
     const randomIndexLunchs = Math.floor(Math.random() * filteredLunchs.length);
     const randomIndexDinners = Math.floor(Math.random() * filteredDinners.length);
 
+    const randomLunch = filteredLunchs[randomIndexLunchs];
+    const randomDinner = filteredDinners[randomIndexDinners];
+
     return {
         lunch: {
-            title: lunchs[randomIndexLunchs].title,
-            ingredients: lunchs[randomIndexLunchs].ingredients,
-            cycle_phase: lunchs[randomIndexLunchs].cycle_phase as CyclePhase,
-            type: 'lunch',
+            ...randomLunch as Menu,
         },
         dinner: {
-            title: dinners[randomIndexDinners].title,
-            ingredients: dinners[randomIndexDinners].ingredients,
-            cycle_phase: dinners[randomIndexDinners].cycle_phase as CyclePhase,
-            type: 'dinner',
-        },
+            ...randomDinner as Menu
+        }
     };
 }

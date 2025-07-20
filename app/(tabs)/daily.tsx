@@ -1,4 +1,5 @@
-import { CyclePhase, getMenuByPhase, getRandomMenu, Menu } from "@/services/db.service";
+import { CyclePhase, getRandomMenuByPhase, Menu } from "@/services/db.service";
+import { primaryColor, primaryWhite } from "@/styles/colors";
 import { Button } from "@react-navigation/elements";
 import { useState } from "react";
 import { StyleSheet, Text, View } from "react-native";
@@ -10,7 +11,7 @@ export default function Daily() {
     const [menu, setMenu] = useState<{ lunch: Menu, dinner: Menu }>();
 
     const [open, setOpen] = useState(false);
-    const [selectedValue, setSelectedValue] = useState<CyclePhase>(CyclePhase.Menstrual);
+    const [selectedValue, setSelectedValue] = useState<CyclePhase>();
     const [items, setItems] = useState([
         { label: 'Menstrual', value: 'menstrual' },
         { label: 'Folicular', value: 'follicular' },
@@ -20,7 +21,7 @@ export default function Daily() {
     ]);
 
     const newMenu = () => {
-        const menu = selectedValue === 'none' ? getRandomMenu() : getMenuByPhase(selectedValue);
+        const menu = getRandomMenuByPhase(selectedValue ?? CyclePhase.None);
         setMenu(menu)
     }
 
@@ -29,24 +30,22 @@ export default function Daily() {
             <View
                 style={styles.container}
             >
-                <View style={styles.content}>
-                    <View style={styles.menu}>
-                        {menu ? <MenuLayout lunch={menu.lunch} dinner={menu.dinner} /> : <Text style={{ ...styles.actions, color: 'red' }}>Preme xerar menú aleatorio</Text>}
-                    </View>
-                    <Button style={styles.actions} onPressOut={newMenu}>Xerar menú aleatorio</Button>
-                    <View style={styles.actions}>
-                        <DropDownPicker
-                            style={styles.dropdown}
-                            open={open}
-                            value={selectedValue}
-                            items={items}
-                            setOpen={setOpen}
-                            setValue={setSelectedValue}
-                            setItems={setItems}
-                            placeholder="Selecciona fase"
-                            listMode="FLATLIST"
-                        />
-                    </View>
+                <View style={styles.menu}>
+                    {menu ? <MenuLayout lunch={menu.lunch} dinner={menu.dinner} /> : <Text style={{ ...styles.actions, fontWeight: 'bold' }}>Que che apetece comer hoxe?</Text>}
+                </View>
+                <Button variant="plain" color="black" style={styles.button} onPressOut={newMenu}>Xerar menú aleatorio</Button>
+                <View style={styles.actions}>
+                    <DropDownPicker
+                        style={styles.dropdown}
+                        open={open}
+                        value={selectedValue ?? null}
+                        items={items}
+                        setOpen={setOpen}
+                        setValue={setSelectedValue}
+                        setItems={setItems}
+                        placeholder="Selecciona fase"
+                        listMode="FLATLIST"
+                    />
                 </View>
             </View>
         </SafeAreaView>
@@ -58,10 +57,9 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-    },
-    content: {
-        flex: 1,
-        padding: 10,
+        backgroundColor: primaryWhite,
+        width: '100%',
+        padding: 20,
     },
     menu: {
         flex: 1,
@@ -72,11 +70,13 @@ const styles = StyleSheet.create({
         alignItems: "center",
         padding: 30,
         alignSelf: "center",
-
+    },
+    button: {
+        backgroundColor: primaryColor,
     },
     dropdown: {
-        width: '90%',
         justifyContent: "center",
         alignSelf: "center",
+        backgroundColor: primaryColor,
     }
 });
