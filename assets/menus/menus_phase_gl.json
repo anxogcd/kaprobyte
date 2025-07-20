@@ -1,0 +1,826 @@
+{
+    "lunchs": [
+        {
+            "title": "Guiso de lentellas con espinacas",
+            "ingredients": [
+                "lentellas cocidas",
+                "espinacas",
+                "cenoria",
+                "cebola"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Merluza á prancha con pementos",
+            "ingredients": [
+                "merluza",
+                "pementos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Salmón á prancha con espárragos verdes",
+            "ingredients": [
+                "salmón",
+                "espárragos verdes"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Calamares á prancha con pementos",
+            "ingredients": [
+                "calamares",
+                "pementos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Peixe azul á prancha con ensalada",
+            "ingredients": [
+                "peixe azul",
+                "ensalada"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Chuleta á prancha con ensalada e olivas",
+            "ingredients": [
+                "chuleta",
+                "ensalada",
+                "olivas"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Lombo á prancha con ensalada e cebola",
+            "ingredients": [
+                "lombo",
+                "ensalada",
+                "cebola"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Guiso de raia con pementos",
+            "ingredients": [
+                "raia",
+                "pementos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Merluza con sopa de verduras",
+            "ingredients": [
+                "merluza",
+                "cenoria",
+                "pementos",
+                "apio"
+            ],
+            "type": "lunch",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Salmón á prancha con ensalada",
+            "ingredients": [
+                "salmón",
+                "ensalada"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Peza de polo á prancha con gaspacho",
+            "ingredients": [
+                "peza de polo",
+                "tomate",
+                "pepino",
+                "allo"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Lubina ao forno con pementos",
+            "ingredients": [
+                "lubina",
+                "pementos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Raia cocida con espárragos verdes á prancha",
+            "ingredients": [
+                "raia",
+                "espárragos verdes"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Peixe branco á prancha con tomate ao forno e orégano",
+            "ingredients": [
+                "peixe branco",
+                "tomate",
+                "orégano"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Peza de polo á prancha con cabaciño",
+            "ingredients": [
+                "peza de polo",
+                "cabaciño"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Dourada ao forno con fungos",
+            "ingredients": [
+                "dourada",
+                "fungos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Calamares á prancha con leituga",
+            "ingredients": [
+                "calamares",
+                "leituga"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Rodaballo á prancha con espárragos verdes",
+            "ingredients": [
+                "rodaballo",
+                "espárragos verdes"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Peixe branco á prancha con fungos",
+            "ingredients": [
+                "peixe branco",
+                "fungos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Lubina ao forno con ensalada",
+            "ingredients": [
+                "lubina",
+                "ensalada"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Peza de polo á prancha con espárragos e olivas",
+            "ingredients": [
+                "peza de polo",
+                "espárragos",
+                "olivas"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Polo á prancha con pisto de verduras",
+            "ingredients": [
+                "peza de polo",
+                "cabaciño",
+                "berenxena",
+                "salsa de tomate",
+                "ovo"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Merluza á prancha con ensalada",
+            "ingredients": [
+                "merluza",
+                "ensalada"
+            ],
+            "type": "lunch",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Calamares á prancha con tomate ao forno e orégano",
+            "ingredients": [
+                "calamares",
+                "tomate",
+                "orégano"
+            ],
+            "type": "lunch",
+            "cycle_phase": "ovulation"
+        },
+        {
+            "title": "Bacallau con ceboliñas e espárragos verdes á prancha",
+            "ingredients": [
+                "bacallau",
+                "cebola",
+                "espárragos verdes"
+            ],
+            "type": "lunch",
+            "cycle_phase": "ovulation"
+        },
+        {
+            "title": "Mexillóns con tomate á prancha",
+            "ingredients": [
+                "mexillóns",
+                "tomate"
+            ],
+            "type": "lunch",
+            "cycle_phase": "ovulation"
+        },
+        {
+            "title": "Polo ao forno con espárragos verdes",
+            "ingredients": [
+                "muslos de polo",
+                "espárragos verdes"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Peixe branco frito ou á prancha con ensalada e cebola",
+            "ingredients": [
+                "peixe branco",
+                "ensalada",
+                "cebola"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Polo ao forno con fungos",
+            "ingredients": [
+                "muslos de polo",
+                "fungos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Lombo á prancha con ensalada e olivas",
+            "ingredients": [
+                "lombo",
+                "ensalada",
+                "olivas"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Merluza á prancha con ensalada",
+            "ingredients": [
+                "merluza",
+                "ensalada"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Polo á prancha con pisto de verduras",
+            "ingredients": [
+                "peza de polo",
+                "cabaciño",
+                "pataca",
+                "berenxena",
+                "salsa de tomate",
+                "ovo"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Raia con fungos",
+            "ingredients": [
+                "raia",
+                "fungos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Peza de polo á prancha con fungos ao allo",
+            "ingredients": [
+                "peza de polo",
+                "fungos",
+                "allo"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Peixe azul á prancha ou frito con espárragos",
+            "ingredients": [
+                "peixe azul",
+                "espárragos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Lubina ao forno con fungos rehogados",
+            "ingredients": [
+                "lubina",
+                "fungos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Calamares á prancha con espárragos verdes",
+            "ingredients": [
+                "calamares",
+                "espárragos verdes"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Polo á prancha con ensalada e olivas",
+            "ingredients": [
+                "peza de polo",
+                "ensalada",
+                "olivas"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Polo ao forno con verduras de col",
+            "ingredients": [
+                "muslos de polo",
+                "verduras de col"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Chocos guisados con berenxena e cebola",
+            "ingredients": [
+                "chocos",
+                "berenxena",
+                "cebola"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Dourada ao forno con tomate á prancha e orégano",
+            "ingredients": [
+                "dourada",
+                "tomate",
+                "orégano"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Bacallau con ceboliñas e espárragos verdes á prancha",
+            "ingredients": [
+                "bacallau",
+                "cebola",
+                "espárragos verdes"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Polo ao forno con sopa de verduras",
+            "ingredients": [
+                "muslos de polo",
+                "cenoria",
+                "pementos",
+                "apio"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Peixe azul á prancha ou frito con pementos",
+            "ingredients": [
+                "peixe azul",
+                "pementos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Polo ao forno con espinacas rehogadas con allo",
+            "ingredients": [
+                "muslos de polo",
+                "espinacas",
+                "allo"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Peixe branco á prancha con fungos",
+            "ingredients": [
+                "peixe branco",
+                "fungos"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Lubina ao forno con ensalada",
+            "ingredients": [
+                "lubina",
+                "ensalada"
+            ],
+            "type": "lunch",
+            "cycle_phase": "luteal"
+        }
+    ],
+    "dinners": [
+        {
+            "title": "Brócoli con xamón e allo",
+            "ingredients": [
+                "brócoli",
+                "xamón",
+                "allo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Tortilla francesa con froita de tempada",
+            "ingredients": [
+                "ovo",
+                "froita de tempada"
+            ],
+            "type": "dinner",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Ensalada de garavanzos con espinacas e tomate",
+            "ingredients": [
+                "garavanzos cocidos",
+                "espinacas",
+                "tomate"
+            ],
+            "type": "dinner",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Brócoli con allo, espinacas e iogur",
+            "ingredients": [
+                "brócoli",
+                "allo",
+                "espinacas",
+                "iogur"
+            ],
+            "type": "dinner",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Espárragos, ovo cocido, olivas e iogur",
+            "ingredients": [
+                "espárragos",
+                "ovo cocido",
+                "olivas",
+                "iogur"
+            ],
+            "type": "dinner",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Revolto de espárragos con pavo",
+            "ingredients": [
+                "espárragos",
+                "pavo",
+                "ovo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "menstrual"
+        },
+        {
+            "title": "Ensalada con cebola, ovo cocido e aguacate",
+            "ingredients": [
+                "ensalada",
+                "cebola",
+                "ovo cocido",
+                "aguacate"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Gaspacho e tortilla francesa",
+            "ingredients": [
+                "tomate",
+                "pepino",
+                "allo",
+                "ovo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Brócoli con camaróns e allo",
+            "ingredients": [
+                "brócoli",
+                "camaróns",
+                "allo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Tomate con bonito e cebola",
+            "ingredients": [
+                "tomate",
+                "bonito",
+                "cebola"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Queixo con froita de tempada e froitos secos",
+            "ingredients": [
+                "queixo",
+                "froita de tempada",
+                "froitos secos"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Ensalada con cebola, tomate e xamón",
+            "ingredients": [
+                "ensalada",
+                "cebola",
+                "tomate",
+                "xamón"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Aguacate con espárragos e camaróns",
+            "ingredients": [
+                "aguacate",
+                "espárragos",
+                "camaróns"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Fungos con camaróns ao allo",
+            "ingredients": [
+                "fungos",
+                "camaróns",
+                "allo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Tortilla francesa con froita de tempada e iogur",
+            "ingredients": [
+                "ovo",
+                "froita de tempada",
+                "iogur"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Mexillóns con espárragos e olivas",
+            "ingredients": [
+                "mexillóns",
+                "espárragos",
+                "olivas"
+            ],
+            "type": "dinner",
+            "cycle_phase": "follicular"
+        },
+        {
+            "title": "Froita de tempada con iogur e froitos secos",
+            "ingredients": [
+                "froita de tempada",
+                "iogur",
+                "froitos secos"
+            ],
+            "type": "dinner",
+            "cycle_phase": "ovulation"
+        },
+        {
+            "title": "Ensalada de espinacas, fresa e noces",
+            "ingredients": [
+                "espinacas",
+                "fresa",
+                "noces"
+            ],
+            "type": "dinner",
+            "cycle_phase": "ovulation"
+        },
+        {
+            "title": "Peixe azul á prancha ou frito con fungos",
+            "ingredients": [
+                "peixe azul",
+                "fungos"
+            ],
+            "type": "dinner",
+            "cycle_phase": "ovulation"
+        },
+        {
+            "title": "Tomate con olivas e bonito",
+            "ingredients": [
+                "tomate",
+                "olivas",
+                "bonito"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Tortilla francesa e bonito",
+            "ingredients": [
+                "ovo",
+                "bonito"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Piña, froita de tempada e froitos secos",
+            "ingredients": [
+                "piña",
+                "froita de tempada",
+                "froitos secos"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Salteado de ovos, fungos e camaróns",
+            "ingredients": [
+                "ovo",
+                "fungos",
+                "camaróns"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Queixo con pavo e froita de tempada",
+            "ingredients": [
+                "queixo",
+                "pavo",
+                "froita de tempada"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Brócoli con ovo cocido",
+            "ingredients": [
+                "brócoli",
+                "ovo cocido"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Aguacate, tomate e bonito",
+            "ingredients": [
+                "aguacate",
+                "tomate",
+                "bonito"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Mexillóns con fungos",
+            "ingredients": [
+                "mexillóns",
+                "fungos"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Tortilla francesa, mazá asada e froita de tempada",
+            "ingredients": [
+                "ovo",
+                "mazá",
+                "froita de tempada"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Aguacate con espárragos e camaróns",
+            "ingredients": [
+                "aguacate",
+                "espárragos",
+                "camaróns"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Brócoli con camaróns e allo",
+            "ingredients": [
+                "brócoli",
+                "camaróns",
+                "allo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Mexillóns con espárragos verdes á prancha",
+            "ingredients": [
+                "mexillóns",
+                "espárragos verdes"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Tomate con ovo e bonito",
+            "ingredients": [
+                "tomate",
+                "ovo",
+                "bonito"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Tortilla francesa con xamón",
+            "ingredients": [
+                "ovo",
+                "xamón"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Fungos con camaróns ao allo",
+            "ingredients": [
+                "fungos",
+                "camaróns",
+                "allo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Froita de tempada con froitos secos e tortilla francesa",
+            "ingredients": [
+                "froita de tempada",
+                "froitos secos",
+                "ovo"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Ensalada de espinacas con pavo e mazá",
+            "ingredients": [
+                "espinacas",
+                "pavo",
+                "mazá"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        },
+        {
+            "title": "Piña, froita de tempada e froitos secos",
+            "ingredients": [
+                "piña",
+                "froita de tempada",
+                "froitos secos"
+            ],
+            "type": "dinner",
+            "cycle_phase": "luteal"
+        }
+    ]
+}

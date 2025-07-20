@@ -1,0 +1,650 @@
+{
+    "menus": [
+        {
+            "title": "Guiso de rape con pimientos",
+            "ingredients": [
+                "rape",
+                "pimientos"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Brécol con jamón y ajo",
+            "ingredients": [
+                "brécol",
+                "jamón",
+                "ajo"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Merluza a la plancha con ensalada",
+            "ingredients": [
+                "merluza",
+                "ensalada"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Fruta de temporada con yogur y frutos secos",
+            "ingredients": [
+                "fruta de temporada",
+                "yogur",
+                "frutos secos"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Salmón a la plancha con espárragos verdes",
+            "ingredients": [
+                "salmón",
+                "espárragos verdes"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Tomate con bonito y cebolla",
+            "ingredients": [
+                "tomate",
+                "bonito",
+                "cebolla"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Jarrete cocido con verdura de col",
+            "ingredients": [
+                "jarrete",
+                "verdura de col"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Calamares a la plancha con pimientos",
+            "ingredients": [
+                "calamares",
+                "pimientos"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Revuelto de espárragos con pavo",
+            "ingredients": [
+                "espárragos",
+                "pavo",
+                "huevo"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pescado blanco a la plancha con tomate a la plancha con orégano",
+            "ingredients": [
+                "pescado blanco",
+                "tomate",
+                "orégano"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Queso con fruta de temporada y frutos secos",
+            "ingredients": [
+                "queso",
+                "fruta de temporada",
+                "frutos secos"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Salmón a la plancha con ensalada",
+            "ingredients": [
+                "salmón",
+                "ensalada"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pechuga de pollo a la plancha con gazpacho",
+            "ingredients": [
+                "pechuga de pollo",
+                "tomate",
+                "pepino",
+                "ajo"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Ensalada, cebolla, huevo cocido y aguacate",
+            "ingredients": [
+                "ensalada",
+                "cebolla",
+                "huevo cocido",
+                "aguacate"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Lubina al horno con pimientos",
+            "ingredients": [
+                "lubina",
+                "pimientos"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Brécol con ajo, espinacas y yogur",
+            "ingredients": [
+                "brécol",
+                "ajo",
+                "espinacas",
+                "yogur"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Gazpacho y tortilla francesa",
+            "ingredients": [
+                "tomate",
+                "pepino",
+                "ajo",
+                "huevo"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pechuga de pollo a la plancha con calabacín",
+            "ingredients": [
+                "pechuga de pollo",
+                "calabacín"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Mejillones con tomate a la plancha",
+            "ingredients": [
+                "mejillones",
+                "tomate"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Lomo a la plancha con ensalada y cebolla",
+            "ingredients": [
+                "lomo",
+                "ensalada",
+                "cebolla"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Tortilla francesa con fruta de temporada",
+            "ingredients": [
+                "huevo",
+                "fruta de temporada"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pescado azul a la plancha o frito con ensalada",
+            "ingredients": [
+                "pescado azul",
+                "ensalada"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Fruta de temporada con frutos secos y tortilla francesa",
+            "ingredients": [
+                "fruta de temporada",
+                "frutos secos",
+                "huevo"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Chuleta a la plancha con ensalada y aceitunas",
+            "ingredients": [
+                "chuleta",
+                "ensalada",
+                "aceitunas"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Rodaballo a la plancha con espárragos verdes",
+            "ingredients": [
+                "rodaballo",
+                "espárragos verdes"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Calamares a la plancha con lechuga",
+            "ingredients": [
+                "calamares",
+                "lechuga"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Queso con pavo y fruta de temporada",
+            "ingredients": [
+                "queso",
+                "pavo",
+                "fruta de temporada"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pechuga de pollo a la plancha con tomate a la plancha con orégano",
+            "ingredients": [
+                "pechuga de pollo",
+                "tomate",
+                "orégano"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Dorada al horno con champiñones",
+            "ingredients": [
+                "dorada",
+                "champiñones"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pechuga de pollo a la plancha con espárragos y aceitunas",
+            "ingredients": [
+                "pechuga de pollo",
+                "espárragos",
+                "aceitunas"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Mejillones con champiñones",
+            "ingredients": [
+                "mejillones",
+                "champiñones"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pollo al horno con espárragos verdes",
+            "ingredients": [
+                "muslos pollo",
+                "espárragos verdes"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Calamares a la plancha con tomate a la plancha con orégano",
+            "ingredients": [
+                "calamares",
+                "tomate",
+                "orégano"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Tortilla francesa con jamón",
+            "ingredients": [
+                "huevo",
+                "jamón"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Merluza con sopa de verduras",
+            "ingredients": [
+                "merluza",
+                "zanahoria",
+                "puerro",
+                "apio"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Espárragos, huevo cocido, aceitunas y yogur",
+            "ingredients": [
+                "espárragos",
+                "huevo cocido",
+                "aceitunas",
+                "yogur"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Dorada al horno con tomate a la plancha con orégano",
+            "ingredients": [
+                "dorada",
+                "tomate",
+                "orégano"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pechuga de pollo a la plancha con ensalada y aceitunas",
+            "ingredients": [
+                "pechuga de pollo",
+                "ensalada",
+                "aceitunas"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pescado blanco a la plancha con champiñones o setas",
+            "ingredients": [
+                "pescado blanco",
+                "champiñones"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Bacalao con cebollitas y espárragos verdes a la plancha",
+            "ingredients": [
+                "bacalao",
+                "cebolla",
+                "espárragos verdes"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Aguacate, tomate y bonito",
+            "ingredients": [
+                "aguacate",
+                "tomate",
+                "bonito"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Champiñones con gambas al ajillo",
+            "ingredients": [
+                "champiñones",
+                "gambas",
+                "ajo"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pescado blanco frito o a la plancha con ensalada con cebolla",
+            "ingredients": [
+                "pescado blanco",
+                "ensalada",
+                "cebolla"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pollo al horno con champiñones",
+            "ingredients": [
+                "muslos pollo",
+                "champiñones"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Aguacate con espárragos y gambas",
+            "ingredients": [
+                "aguacate",
+                "espárragos",
+                "gambas"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Rape con champiñones",
+            "ingredients": [
+                "rape",
+                "champiñones"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Tortilla francesa y bonito",
+            "ingredients": [
+                "huevo",
+                "bonito"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Brécol con huevo cocido",
+            "ingredients": [
+                "brécol",
+                "huevo cocido"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pescado azul a la plancha o frito con espárragos a la plancha",
+            "ingredients": [
+                "pescado azul",
+                "espárragos"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Tomate con aceitunas y bonito",
+            "ingredients": [
+                "tomate",
+                "aceitunas",
+                "bonito"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Calamares a la plancha o guisados con espárragos verdes a la plancha",
+            "ingredients": [
+                "calamares",
+                "espárragos verdes"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pechuga de pollo a la plancha con champiñones o setas al ajillo",
+            "ingredients": [
+                "pechuga de pollo",
+                "champiñones",
+                "ajo"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pollo a la plancha con pisto de verduras",
+            "ingredients": [
+                "pechuga de pollo",
+                "calabacín",
+                "patata",
+                "berenjena",
+                "salsa de tomate",
+                "huevo"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Mejillones con espárragos y aceitunas",
+            "ingredients": [
+                "mejillones",
+                "espárragos",
+                "aceitunas"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Merluza a la plancha con pimientos a la plancha",
+            "ingredients": [
+                "merluza",
+                "pimientos"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pollo al horno con espinacas rehogadas con ajo",
+            "ingredients": [
+                "muslos pollo",
+                "espinacas",
+                "ajo"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Salteado de huevos, champiñones y gambas",
+            "ingredients": [
+                "huevo",
+                "champiñones",
+                "gambas"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Tortilla francesa, manzana asada y fruta de temporada",
+            "ingredients": [
+                "huevo",
+                "manzana",
+                "fruta de temporada"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pescado azul a la plancha o frito con champiñones o setas",
+            "ingredients": [
+                "pescado azul",
+                "champiñones"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Ensalada, cebolla, tomate y jamón",
+            "ingredients": [
+                "ensalada",
+                "cebolla",
+                "tomate",
+                "jamón"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Tortilla francesa con fruta de temporada y yogur",
+            "ingredients": [
+                "huevo",
+                "fruta de temporada",
+                "yogur"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Lubina al horno con ensalada",
+            "ingredients": [
+                "lubina",
+                "ensalada"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Brécol con gambas y ajo",
+            "ingredients": [
+                "brécol",
+                "gambas",
+                "ajo"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Lomo a la plancha con ensalada y aceitunas",
+            "ingredients": [
+                "lomo",
+                "ensalada",
+                "aceitunas"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Rape cocido con espárragos verdes a la plancha",
+            "ingredients": [
+                "rape",
+                "espárragos verdes"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Lubina al horno con champiñones rehogados",
+            "ingredients": [
+                "lubina",
+                "champiñones"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Chuleta a la plancha con sopa de verduras",
+            "ingredients": [
+                "chuleta",
+                "zanahoria",
+                "puerro",
+                "apio"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Piña, fruta de temporada y frutos secos",
+            "ingredients": [
+                "piña",
+                "fruta de temporada",
+                "frutos secos"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pollo al horno con sopa de verduras",
+            "ingredients": [
+                "muslos pollo",
+                "zanahoria",
+                "puerro",
+                "apio"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Pescado azul a la plancha o frito con pimientos",
+            "ingredients": [
+                "pescado azul",
+                "pimientos"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Pollo al horno con verdura de col",
+            "ingredients": [
+                "muslos pollo",
+                "verdura de col"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Mejillones con espárragos verdes a la plancha",
+            "ingredients": [
+                "mejillones",
+                "espárragos verdes"
+            ],
+            "type": "dinner"
+        },
+        {
+            "title": "Chocos guisados con berenjena y cebolla",
+            "ingredients": [
+                "chocos",
+                "berenjena",
+                "cebolla"
+            ],
+            "type": "lunch"
+        },
+        {
+            "title": "Tomate con huevo y bonito",
+            "ingredients": [
+                "tomate",
+                "huevo",
+                "bonito"
+            ],
+            "type": "dinner"
+        }
+    ]
+}
