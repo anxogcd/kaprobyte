@@ -21,8 +21,8 @@ export default function Daily() {
     ]);
 
     const newMenu = () => {
-        const menu = getRandomMenuByPhase(selectedValue ?? CyclePhase.None);
-        setMenu(menu)
+        const randomMenu = getRandomMenuByPhase(selectedValue ?? CyclePhase.None);
+        setMenu(randomMenu)
     }
 
     return (
