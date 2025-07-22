@@ -44,7 +44,7 @@ export default function Daily() {
                         setValue={setSelectedValue}
                         setItems={setItems}
                         placeholder="Selecciona fase"
-                        listMode="FLATLIST"
+                        listMode="SCROLLVIEW"
                     />
                 </View>
             </View>
