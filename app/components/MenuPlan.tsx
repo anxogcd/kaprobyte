@@ -3,26 +3,28 @@ import { primaryColor } from "@/styles/colors";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
 
 export default function MenuPlan({ menus }: { menus: { lunch: Menu, dinner: Menu }[] }) {
+    if (!menus || menus.length === 0) return null;
+
     return (
-        menus && menus.length > 0 && <ScrollView style={styles.content}>
-            {menus.length > 0 && menus.map((menu, index) => (
+        <ScrollView style={styles.content}>
+            {menus.map((menu, index) => (
                 <View key={index} style={styles.day}>
                     <Text style={styles.title}>
                         Día {index + 1} ({translateCyclePhase(menu.lunch.cycle_phase)})
                     </Text>
                     <View>
                         <Text style={styles.lunch}>
-                            <b>Xantar:</b> {menu.lunch.title}
+                            <Text style={{ fontWeight: "bold" }}>Xantar:</Text> {menu.lunch.title}
                         </Text>
                         <Text style={styles.lunch}>
-                            <b>Cea:</b> {menu.dinner.title}
+                            <Text style={{ fontWeight: "bold" }}>Cea:</Text> {menu.dinner.title}
                         </Text>
                     </View>
                 </View>
             ))}
             <View style={styles.ingredients}>
                 <Text style={styles.title}>Ingredientes totais</Text>
-                {menus.length > 0 && getAllIngredients({ menus }).map(([ingredient, count], index) => (
+                {getAllIngredients({ menus }).map(([ingredient, count], index) => (
                     <Text key={index} style={styles.lunch}>
                         🌱 {index + 1} - {ingredient}   x{count}
                     </Text>
@@ -73,7 +75,7 @@ const styles = StyleSheet.create({
     },
     ingredients: {
         marginTop: 10,
-        marginBottom: 20,
+        marginBottom: 80,
         backgroundColor: primaryColor,
         padding: 20,
         borderRadius: 10,

@@ -108,9 +108,9 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Lubina ao forno con pementos",
+            "title": "Peixe branco ao forno con pementos",
             "ingredients": [
-                "lubina",
+                "peixe branco",
                 "pementos"
             ],
             "type": "lunch",
@@ -145,9 +145,9 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Dourada ao forno con fungos",
+            "title": "Peixe branco ao forno con fungos",
             "ingredients": [
-                "dourada",
+                "peixe branco",
                 "fungos"
             ],
             "type": "lunch",
@@ -181,9 +181,9 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Lubina ao forno con ensalada",
+            "title": "Peixe branco ao forno con ensalada",
             "ingredients": [
-                "lubina",
+                "peixe branco",
                 "ensalada"
             ],
             "type": "lunch",
@@ -338,9 +338,9 @@
             "cycle_phase": "luteal"
         },
         {
-            "title": "Lubina ao forno con fungos refogados",
+            "title": "Peixe branco ao forno con fungos refogados",
             "ingredients": [
-                "lubina",
+                "peixe branco",
                 "fungos"
             ],
             "type": "lunch",
@@ -385,9 +385,9 @@
             "cycle_phase": "luteal"
         },
         {
-            "title": "Dourada ao forno con tomate á prancha e ourego",
+            "title": "Peixe branco ao forno con tomate á prancha e ourego",
             "ingredients": [
-                "dourada",
+                "peixe branco",
                 "tomate",
                 "ourego"
             ],
@@ -444,9 +444,9 @@
             "cycle_phase": "luteal"
         },
         {
-            "title": "Lubina ao forno con ensalada",
+            "title": "Peixe branco ao forno con ensalada",
             "ingredients": [
-                "lubina",
+                "peixe branco",
                 "ensalada"
             ],
             "type": "lunch",

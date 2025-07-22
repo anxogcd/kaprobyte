@@ -1,4 +1,4 @@
-import { primaryColor } from "@/styles/colors";
+import { primaryColor, primaryWhite } from "@/styles/colors";
 import Ionicons from '@expo/vector-icons/Ionicons';
 import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { Text } from "@react-navigation/elements";
@@ -149,8 +149,8 @@ export default function Equals() {
 
 
     return (
-        <SafeAreaView style={{ flex: 1 }}>
-            <ScrollView style={{ marginBottom: 20 }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: primaryWhite }}>
+            <ScrollView style={{ flex: 1, padding: 10 }}>
                 <Text style={styles.title}><MaterialCommunityIcons name="fruit-cherries" size={24} color="black" /> Froita de tempada</Text>
                 <FlatList
                     data={seasonalFruits[month]}
@@ -222,6 +222,8 @@ const styles = StyleSheet.create({
         textAlign: "center",
         marginTop: 20,
         marginBottom: 20,
+        width: '85%',
+        alignSelf: "center",
     },
     item: {
         flex: 1,

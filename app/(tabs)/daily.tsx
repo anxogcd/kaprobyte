@@ -26,41 +26,29 @@ export default function Daily() {
     }
 
     return (
-        <SafeAreaView style={{ flex: 1 }}>
-            <View
-                style={styles.container}
-            >
-                <ScrollView style={styles.menu}>
-                    {menu ? <MenuLayout lunch={menu.lunch} dinner={menu.dinner} /> : <Text style={{ ...styles.actions, fontWeight: 'bold' }}>Que che apetece comer hoxe?</Text>}
-                </ScrollView>
-                <Button variant="plain" color="black" style={styles.button} onPressOut={newMenu}>Xerar menú aleatorio</Button>
-                <View style={styles.actions}>
-                    <DropDownPicker
-                        style={styles.dropdown}
-                        open={open}
-                        value={selectedValue ?? null}
-                        items={items}
-                        setOpen={setOpen}
-                        setValue={setSelectedValue}
-                        setItems={setItems}
-                        placeholder="Selecciona fase"
-                        listMode="SCROLLVIEW"
-                    />
-                </View>
+        <SafeAreaView style={{ flex: 1, backgroundColor: primaryWhite }}>
+            <ScrollView style={styles.menu}>
+                {menu ? <MenuLayout lunch={menu.lunch} dinner={menu.dinner} /> : <Text style={{ ...styles.actions, fontWeight: 'bold' }}>Que che apetece comer hoxe?</Text>}
+            </ScrollView>
+            <Button variant="plain" color="black" style={styles.button} onPressOut={newMenu}>Xerar menú aleatorio</Button>
+            <View style={styles.actions}>
+                <DropDownPicker
+                    style={styles.dropdown}
+                    open={open}
+                    value={selectedValue ?? null}
+                    items={items}
+                    setOpen={setOpen}
+                    setValue={setSelectedValue}
+                    setItems={setItems}
+                    placeholder="Selecciona fase"
+                    listMode="FLATLIST"
+                />
             </View>
         </SafeAreaView>
     );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-        backgroundColor: primaryWhite,
-        width: '100%',
-        padding: 20,
-    },
     menu: {
         flex: 1,
         padding: 10
@@ -74,10 +62,14 @@ const styles = StyleSheet.create({
     button: {
         marginTop: 20,
         backgroundColor: primaryColor,
+        width: '50%',
+        alignSelf: "center",
     },
     dropdown: {
         justifyContent: "center",
         alignSelf: "center",
         backgroundColor: primaryColor,
+        width: '70%',
+
     }
 });

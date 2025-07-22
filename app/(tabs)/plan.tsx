@@ -1,5 +1,5 @@
 import { get5RandomMenusByDay, Menu } from "@/services/db.service";
-import { primaryColor, primaryWhite } from "@/styles/colors";
+import { primaryColor, primaryWhite, secondaryColor } from "@/styles/colors";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Button } from "@react-navigation/elements";
 import { useState } from "react";
@@ -35,7 +35,7 @@ export default function Plan() {
         >
             {menus && <MenuPlan menus={menus} />}
             <View style={styles.actions}>
-                {menus && menus.length > 0 && (<Button variant="plain" color="black" style={styles.button} onPressOut={savePlan}>Gardar Plan</Button>
+                {menus && menus.length > 0 && (<Button variant="plain" color="black" style={{ ...styles.button, width: '75%', alignSelf: 'center' }} onPressOut={savePlan}>Gardar Plan</Button>
                 )}
                 <Button variant="plain" color="black" style={styles.button} onPressOut={newPlan}>Obter plan para 5 días</Button>
                 <TextInput
@@ -67,6 +67,9 @@ const styles = StyleSheet.create({
         marginTop: 20,
         padding: 10,
         textAlign: "center",
+        fontWeight: 'bold',
+        fontSize: 15,
+        color: secondaryColor,
     },
     actions: {
         marginTop: 20,
