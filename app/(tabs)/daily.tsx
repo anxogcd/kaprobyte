@@ -2,7 +2,7 @@ import { CyclePhase, getRandomMenuByPhase, Menu } from "@/services/db.service";
 import { primaryColor, primaryWhite } from "@/styles/colors";
 import { Button } from "@react-navigation/elements";
 import { useState } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 import DropDownPicker from 'react-native-dropdown-picker';
 import { SafeAreaView } from "react-native-safe-area-context";
 import MenuLayout from "../components/Menu";
@@ -30,9 +30,9 @@ export default function Daily() {
             <View
                 style={styles.container}
             >
-                <View style={styles.menu}>
+                <ScrollView style={styles.menu}>
                     {menu ? <MenuLayout lunch={menu.lunch} dinner={menu.dinner} /> : <Text style={{ ...styles.actions, fontWeight: 'bold' }}>Que che apetece comer hoxe?</Text>}
-                </View>
+                </ScrollView>
                 <Button variant="plain" color="black" style={styles.button} onPressOut={newMenu}>Xerar menú aleatorio</Button>
                 <View style={styles.actions}>
                     <DropDownPicker
@@ -72,6 +72,7 @@ const styles = StyleSheet.create({
         alignSelf: "center",
     },
     button: {
+        marginTop: 20,
         backgroundColor: primaryColor,
     },
     dropdown: {

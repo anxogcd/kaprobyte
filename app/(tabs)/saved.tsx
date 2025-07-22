@@ -2,6 +2,7 @@ import { Menu } from "@/services/db.service";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useFocusEffect } from "expo-router";
 import { useCallback, useState } from "react";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 import MenuPlan from "../components/MenuPlan";
 
 export default function Saved() {
@@ -27,6 +28,8 @@ export default function Saved() {
     );
 
     return (
-        <MenuPlan menus={menus || []} />
+        <SafeAreaProvider style={{ marginTop: 20 }}>
+            <MenuPlan menus={menus || []} />
+        </SafeAreaProvider>
     )
 }

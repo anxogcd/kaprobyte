@@ -3,7 +3,7 @@
         {
             "title": "Guiso de lentellas con espinacas",
             "ingredients": [
-                "lentellas cocidas",
+                "lentellas",
                 "espinacas",
                 "cenoria",
                 "cebola"
@@ -12,9 +12,9 @@
             "cycle_phase": "menstrual"
         },
         {
-            "title": "Merluza á prancha con pementos",
+            "title": "Pescada á prancha con pementos",
             "ingredients": [
-                "merluza",
+                "pescada",
                 "pementos"
             ],
             "type": "lunch",
@@ -77,9 +77,9 @@
             "cycle_phase": "menstrual"
         },
         {
-            "title": "Merluza con sopa de verduras",
+            "title": "Pescada con sopa de verduras",
             "ingredients": [
-                "merluza",
+                "pescada",
                 "cenoria",
                 "pementos",
                 "apio"
@@ -97,11 +97,11 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Peza de polo á prancha con gaspacho",
+            "title": "Peza de polo á prancha con gazpacho",
             "ingredients": [
                 "peza de polo",
                 "tomate",
-                "pepino",
+                "cogombro",
                 "allo"
             ],
             "type": "lunch",
@@ -126,11 +126,11 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Peixe branco á prancha con tomate ao forno e orégano",
+            "title": "Peixe branco á prancha con tomate ao forno e ourego",
             "ingredients": [
                 "peixe branco",
                 "tomate",
-                "orégano"
+                "ourego"
             ],
             "type": "lunch",
             "cycle_phase": "follicular"
@@ -154,10 +154,10 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Calamares á prancha con leituga",
+            "title": "Calamares á prancha con ensalada",
             "ingredients": [
                 "calamares",
-                "leituga"
+                "ensalada"
             ],
             "type": "lunch",
             "cycle_phase": "follicular"
@@ -212,20 +212,20 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Merluza á prancha con ensalada",
+            "title": "Pescada á prancha con ensalada",
             "ingredients": [
-                "merluza",
+                "pescada",
                 "ensalada"
             ],
             "type": "lunch",
             "cycle_phase": "follicular"
         },
         {
-            "title": "Calamares á prancha con tomate ao forno e orégano",
+            "title": "Calamares á prancha con tomate á prancha e ourego",
             "ingredients": [
                 "calamares",
                 "tomate",
-                "orégano"
+                "ourego"
             ],
             "type": "lunch",
             "cycle_phase": "ovulation"
@@ -288,9 +288,9 @@
             "cycle_phase": "luteal"
         },
         {
-            "title": "Merluza á prancha con ensalada",
+            "title": "Pescada á prancha con ensalada",
             "ingredients": [
-                "merluza",
+                "pescada",
                 "ensalada"
             ],
             "type": "lunch",
@@ -338,7 +338,7 @@
             "cycle_phase": "luteal"
         },
         {
-            "title": "Lubina ao forno con fungos rehogados",
+            "title": "Lubina ao forno con fungos refogados",
             "ingredients": [
                 "lubina",
                 "fungos"
@@ -385,11 +385,11 @@
             "cycle_phase": "luteal"
         },
         {
-            "title": "Dourada ao forno con tomate á prancha e orégano",
+            "title": "Dourada ao forno con tomate á prancha e ourego",
             "ingredients": [
                 "dourada",
                 "tomate",
-                "orégano"
+                "ourego"
             ],
             "type": "lunch",
             "cycle_phase": "luteal"
@@ -425,7 +425,7 @@
             "cycle_phase": "luteal"
         },
         {
-            "title": "Polo ao forno con espinacas rehogadas con allo",
+            "title": "Polo ao forno con espinacas refogadas con allo",
             "ingredients": [
                 "muslos de polo",
                 "espinacas",
@@ -476,7 +476,7 @@
         {
             "title": "Ensalada de garavanzos con espinacas e tomate",
             "ingredients": [
-                "garavanzos cocidos",
+                "garavanzos",
                 "espinacas",
                 "tomate"
             ],
@@ -527,10 +527,10 @@
             "cycle_phase": "follicular"
         },
         {
-            "title": "Gaspacho e tortilla francesa",
+            "title": "Gazpacho e tortilla francesa",
             "ingredients": [
                 "tomate",
-                "pepino",
+                "cogombro",
                 "allo",
                 "ovo"
             ],
@@ -629,10 +629,10 @@
             "cycle_phase": "ovulation"
         },
         {
-            "title": "Ensalada de espinacas, fresa e noces",
+            "title": "Ensalada de espinacas, froita de tempada e noces",
             "ingredients": [
                 "espinacas",
-                "fresa",
+                "froita de tempada",
                 "noces"
             ],
             "type": "dinner",

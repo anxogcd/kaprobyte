@@ -20,12 +20,14 @@ export default function MenuPlan({ menus }: { menus: { lunch: Menu, dinner: Menu
                     </View>
                 </View>
             ))}
-            <Text style={styles.title}>Ingredientes totais</Text>
-            {menus.length > 0 && getAllIngredients({ menus }).map(([ingredient, count], index) => (
-                <Text key={index} style={styles.lunch}>
-                    {index + 1} - {ingredient} ({count})
-                </Text>
-            ))}
+            <View style={styles.ingredients}>
+                <Text style={styles.title}>Ingredientes totais</Text>
+                {menus.length > 0 && getAllIngredients({ menus }).map(([ingredient, count], index) => (
+                    <Text key={index} style={styles.lunch}>
+                        🌱 {index + 1} - {ingredient}   x{count}
+                    </Text>
+                ))}
+            </View>
         </ScrollView>
     );
 }
@@ -68,5 +70,14 @@ const styles = StyleSheet.create({
         fontSize: 14,
         color: "#333",
         paddingLeft: 20,
+    },
+    ingredients: {
+        marginTop: 10,
+        marginBottom: 20,
+        backgroundColor: primaryColor,
+        padding: 20,
+        borderRadius: 10,
+        width: '85%',
+        alignSelf: "center",
     }
 });
