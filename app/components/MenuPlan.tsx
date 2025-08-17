@@ -1,10 +1,21 @@
 import { getAllIngredients, Menu } from "@/services/db.service";
 import { primaryColor } from "@/styles/colors";
-import { ScrollView, StyleSheet, Text, View } from "react-native";
+import Feather from '@expo/vector-icons/Feather';
+import { useState } from "react";
+import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function MenuPlan({ menus }: { menus: { lunch: Menu, dinner: Menu }[] }) {
     if (!menus || menus.length === 0) return null;
 
+    const [checked, setChecked] = useState(Array(getAllIngredients({ menus }).length).fill(false));
+
+    const toggleChecked = (index: number) => {
+        setChecked((prev) => {
+            const copy = [...prev];
+            copy[index] = !copy[index];
+            return copy;
+        });
+    };
     return (
         <ScrollView style={styles.content}>
             {menus.map((menu, index) => (
@@ -25,9 +36,29 @@ export default function MenuPlan({ menus }: { menus: { lunch: Menu, dinner: Menu
             <View style={styles.ingredients}>
                 <Text style={styles.title}>Ingredientes totais</Text>
                 {getAllIngredients({ menus }).map(([ingredient, count], index) => (
-                    <Text key={index} style={styles.lunch}>
-                        🌱 {index + 1} - {ingredient}   x{count}
-                    </Text>
+                    <View
+                        key={index}
+                        style={{ flexDirection: "row", alignItems: "center", marginBottom: 4 }}
+                    >
+                        <Text
+                            style={[
+                                styles.lunch,
+                                checked[index] && { textDecorationLine: "line-through", opacity: 0.5 },
+                            ]}
+                        >
+                            🌱 {index + 1} - {ingredient} x{count}
+                        </Text>
+                        <TouchableOpacity
+                            onPress={() => toggleChecked(index)}
+                            style={{ marginLeft: 8 }}
+                        >
+                            <Feather
+                                name={checked[index] ? "check-square" : "square"}
+                                size={18}
+                                color="black"
+                            />
+                        </TouchableOpacity>
+                    </View>
                 ))}
             </View>
         </ScrollView>

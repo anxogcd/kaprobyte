@@ -3,7 +3,7 @@ import { primaryColor, primaryWhite } from "@/styles/colors";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Button } from "@react-navigation/elements";
 import { useState } from "react";
-import { SafeAreaView, StyleSheet, TextInput, View } from "react-native";
+import { Alert, SafeAreaView, StyleSheet, TextInput, View } from "react-native";
 import MenuPlan from "../components/MenuPlan";
 
 export default function Plan() {
@@ -13,15 +13,29 @@ export default function Plan() {
     const newPlan = () => {
         if (day && day > 28) return alert("O día do ciclo non pode ser maior que 28");
         const randomMenus = get5RandomMenusByDay(day);
-        setMenus(randomMenus)
-    }
+        setMenus(randomMenus);
+    };
 
     const savePlan = async () => {
-        try {
-            await AsyncStorage.setItem('savedPlan', JSON.stringify(menus));
-        } catch (e) {
-            alert("Erro gardando o plan");
-        }
+        Alert.alert(
+            "Sobrescribir plan",
+            "Pode que teñas un plan gardado. Queres sobrescribilo?",
+            [
+                { text: "Cancelar", style: "cancel" },
+                {
+                    text: "Sobrescribir",
+                    style: "destructive",
+                    onPress: async () => {
+                        try {
+                            await AsyncStorage.setItem('savedPlan', JSON.stringify(menus));
+                            Alert.alert("Plan gardado correctamente");
+                        } catch (e) {
+                            Alert.alert("Erro gardando o plan");
+                        }
+                    }
+                }
+            ]
+        );
     }
 
     const handleChange = (text: string) => {
@@ -30,17 +44,30 @@ export default function Plan() {
     };
 
     return (
-        <SafeAreaView
-            style={styles.container}
-        >
+        <SafeAreaView style={styles.container}>
             {menus && <MenuPlan menus={menus} />}
             <View style={styles.actions}>
-                {menus && menus.length > 0 && (<Button variant="plain" color="black" style={{ ...styles.button, width: '75%', alignSelf: 'center' }} onPressOut={savePlan}>Gardar Plan</Button>
+                {menus && menus.length > 0 && (
+                    <Button
+                        variant="plain"
+                        color="black"
+                        style={{ ...styles.button, width: '75%', alignSelf: 'center' }}
+                        onPressOut={savePlan}
+                    >
+                        Gardar Plan
+                    </Button>
                 )}
-                <Button variant="plain" color="black" style={styles.button} onPressOut={newPlan}>Obter plan para 5 días</Button>
+                <Button
+                    variant="plain"
+                    color="black"
+                    style={styles.button}
+                    onPressOut={newPlan}
+                >
+                    Obter plan para 5 días
+                </Button>
                 <TextInput
                     style={styles.input}
-                    value={day ? day.toString() : ""}
+                    value={day ? day.toString() : undefined}
                     onChangeText={handleChange}
                     keyboardType="numeric"
                     placeholder="Día actual do ciclo (1-28)"
@@ -75,4 +102,4 @@ const styles = StyleSheet.create({
         marginTop: 20,
         marginBottom: 10,
     }
-})
+});
